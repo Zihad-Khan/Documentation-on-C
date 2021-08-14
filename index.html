@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="CSS/all.css">
+<link rel="stylesheet" type="text/css" href="CSS/style_cd.css">
+</head>
+<body>
+<main id="main-doc">
+<header id="heading">
+<h1>C Documentation </h1>
+<a href="C Documentation (bangla).html" id="btn" >বাংলা</a>
+</header>-->
+<input type="checkbox" id="menu">
+<label for="menu"><i class="fas fa-bars"></i></label> 
+<div id="nav-div">
+<nav id="navbar">
+<ul type="none">
+<li><a href="#C programme" >C Programing</a></li>
+<li><a href="#alg & flow" >Algorithm & Flow-chart</a></li>
+<li><a href="#data" >Data Type & Format Specifier</a></li>
+<li><a href="#Variables" >Variable Diclaration</a></li>
+<li><a href="#in&out" > Input-Output Statement</a></li>
+<li><a href="#fprogramme" >First Programme</a></li>
+<li><a href="#mprogramme" >More Programme</a></li>
+<li><a href="#oper" >Operator</a></li>
+<li><a href="#ifelse">If...else Statement</a></li>
+<li><a href="#ifelse"></a></li>
+<li><a href="#ifelse"></a></li>
+</ul>
+</nav>
+</div>
+<div id="main-div" >
+<section class="main-section" id="C programme" > 
+<h2> C Programing</h2>
+<p> C is a high level programming language. It a popular and user friendly language. In 1972, Dennis Ritchie invented this language in Bell Lab.
+It is said that, if you know that language other computer languages become very easy to learn.It is a wonderful structured programing language, 
+you can co-ordinate many simple works to make a Complex programme.</p> 
+</section>
+<hr>
+<section class="main-section" id="alg & flow" > 
+<h2>Algorithm & Flowchart </h2>
+<p>First of all, to solve a problem you have to think about it and understand every part to crack the problem. It is very helpful to think the solution step by step.
+Each of the steps are <b>Algorithm</b>. Sometimes it becomes really easy to draw every steps to solve.This is called <b>Flowchart</b>. Every programmers try to make 
+algorithm & flowchart before they start programing.  </p>
+</section>
+<hr>
+<section class="main-section" id="data" > 
+<h2>Data Type & Format Specifier</h2>
+<p> A computer processor alows different types of data to calculate something. In C Programme there also some specific data types. Some of them are <i>char, int, float</i> 
+and a lot more.
+<h3>char</h3>
+<p>It is the first four letters of <b>character</b>.They can only contain a single letter ('a', 'D', '!', '5').They hold 1byte storage in computer memory. </p>
+<h3>int</h3>
+<p>Having first three letters of <b>integer</b>, it is named <b>int</b>. They hold 4bytes storage of computer memory. That means you can store 2<sup>32</sup> or 4294967296 variety of integer numbers</p>
+<h3>float</h3>
+<p>It is used to store floating point number. They also hold 4 bytes storage of computer memory. </p>
+<h3>Format Specifier</h3>
+<p>To take input or display output programme need to specify the data type.This is called <b>format specifier</b>. <br>Here is some data types and format specifier.</p>
+<table border="2px" style="border-collapse:collapse;width:98%;" class="dtable" >
+<tr><th>Data Types</th><th>Format Specifier</th></tr>
+<tr><td>char</td><td>%c</td></tr>
+<tr><td>int</td><td>%d</td></tr>
+<tr><td>float</td><td>%f</td></tr>
+</table>
+</p>
+</section>
+<hr>
+<section class="main-section" id="Variables" >
+<h2>Variable Declaration</h2>
+<p> In programing world variables are just like what you learnt in mathematics.There's no different between them.You can easily set a name for any types of data.Before started you have to recall the data type first. 
+ Another thing is that C has some reserved words called <b>Keyword</b>.You can't use those names for variables and function name.To set a name you alsi have to follow some instructions.
+ </p>
+ <code><pre>
+int decimal_number;
+decimal_number=10;
+float floating_number1;
+floating_number1=2.096;
+ </pre></code>
+</section>
+<hr>
+<section class="main-section" id="in&out" >
+<h2>Input Output Statement</h2>
+<p>As a programmer,you have to always work with input and output.In this section we will learn how to take input from user and display some output. </p>
+<p>To display anything as output you have to use <strong>printf()</strong> function.This is a function which is defined in your header function.In this function everything will be displayed that is written 
+within double quotation(" ").</p>
+<code><pre>
+printf("Hello world!")
+</pre></code>
+<p>This programme will so the following output.</p>
+<code><pre>
+Hello world!
+</pre></code>
+<p>In same way you can take input from user.So that you have to use <strong>scanf()</strong> function.It is same like printf() function.Within the double quotation(" ") you have to write the format specifier as you learnt before.
+And out side the quotation you have to define each format specifier with respective variable name with comma(,). </p>
+<code><pre>
+ int number_1=3;
+ int number_2=5;
+ scanf("%d\n%d",number_1,
+ number_2);
+</pre></code>
+<p>The code will show the following output.</p>
+<code><pre>
+_
+</pre></code><br>
+<p> It means your programme is ready to take input now.</p>
+<hr>
+</section>
+<section class="main-section" id="fprogramme" >
+<h2>First Programme</h2>
+<p>
+Let's start programing! In this section we will get introduced to a formal structure of C Programme and also run a programme.<br>
+<code><pre>
+#include stdio.h<sup><span id="note">(*wrap with this <>)</span></sup>
+int main(){
+
+printf("This is my first 
+programme.");
+
+return 0;
+}
+</pre></code>
+<br>
+<p>This is the output.</p>
+<br>
+<code><pre>
+<p>This is my first programme.</p>
+</pre></code><br>
+<p>In the following code we can see several unknown terms.Now we'll learn them one by one.</p>
+<p> In the second line you can see <b>main()</b> it is a main function. Every C programme starts running with this function.Curly brackets define that the main function begins at 2nd line and ends at 8th line.</p>
+<p>After that, the <b>printf()</b> function is also a function that you learnt before.But how this function will work it wasn’t defined anywhere else. The <b>stdio.h</b> is such a header file which defines how the functions in this programme will work.</p>
+<p>In the first line #include stdio.h<sup><span id="note">(*wrap with this <>)</span></sup> defines that now you can use the header file in your programme. </p>
+</p>
+</section>
+<hr>
+<section class="main-section" id="mprogramme" >
+<h2>More Programmes</h2>
+<p>Now as a programmer you can do anything you want.So now we'll practice C by making an addition calculater.</p>
+<p>At first let's think the algorithm. First you will take two numbers from user as input. Then your programme will calculate them. After that you will show the final result.</p>
+<code><pre>
+#include stdio.h<sup><span id="note">(*wrap with this <>)</span></sup>
+int main(){
+
+int number_1,number_2;
+int sum;
+printf("Enter the first
+number.");
+scanf("%d",number_1);
+printf("Enter the second
+number.");
+scanf("%d",number_2);
+
+sum=number_1+number_2;
+printf("Your result is %d",
+sum);
+
+return 0;
+}
+</pre></code>
+</section>
+<hr>
+<section class="main-section" id="oper" >
+<h2>Operators</h2>
+<p>There are different types of operators.Let's have look at the table bellow.This a very important term for the next chapters</p>
+<table border="2px" style="border-collapse:collapse;width:98%;" class="dtable">
+<tr><th>Arithmetic Operator</th><th>Relational Operators</th><th>Logical Operator</th></tr>
+<tr><td>+</td><td>==</td><td>&&(and)</td></tr>
+<tr><td>-</td><td>!=</td><td>||(or)</td></tr>
+<tr><td>*</td><td>></td><td>!(not)</td></tr>
+<tr><td>/</td><td>>=</td><td></td></tr>
+<tr><td></td><td><</td><td></td></tr>
+<tr><td></td><td><=</td><td></td></tr>
+</table>
+</section>
+<hr>
+<section class="main-section" id="ifelse" >
+<h2>If...else Statement</h2>
+<p>Now we'll learn conditional statement.In this case we'll set our programme to work on different condition.In C we'll use <b>If...else</b> statement. </p>
+<p>It has the following syntax. </p>
+<code><pre>
+If(conditional expression)
+{
+...Statement 1...
+}
+else{
+...Statement 2...
+}
+</pre></code>
+<p>Here<b>Statement 1</b> being applied when condition is true neither <b>Statement 2</b> gets applied.</p>
+<h3>Let's have a practice </h3>
+<code><pre>
+#include stdio.h<sup><span id="note">(*wrap with this <>)</span></sup>
+int main(){
+
+int number_1,number_2;
+
+printf("Enter the two
+numbers.");
+scanf("%d\n%d",number_1
+,number_2)
+if(number_1==number_2){
+printf("Both numbers are
+equal.");
+}
+else{
+printf("Both numbers are not
+equal.");
+}
+
+return 0;
+}
+</pre></code>
+<p>The code above, will take two numbers and then check them in condition.If condition is true
+ programme will display the 1st statement nor it will display the 2nd statement. </p>
+ <p>Remember to use <b>else if </b>statement in case of checking more conditions.</p>
+</section>
+</div>-->
+</main>
+</body>
+</html>

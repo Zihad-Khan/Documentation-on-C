@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="CSS/all.css">
+<link rel="stylesheet" type="text/css" href="CSS/style_cd.css">
+</head>
+<body>
+<main id="main-doc">
+<header id="heading">
+<h1 style="margin-left:40px;">সি ডকুমেন্টেশন </h1>
+<a href="C Documentation.html" id="btn" style="font-size:16px; height:23px; width:65px;" >English</a>
+</header>-->
+<input type="checkbox" id="menu">
+<label for="menu"><i class="fas fa-bars"></i></label> 
+<div id="nav-div">
+<nav id="navbar">
+<ul type="none">
+<li><a href="#C programme" >সি প্রোগ্রামিং</a></li>
+<li><a href="#alg & flow" >অ্যালগরিদম ও ফ্লো চার্ট</a></li>
+<li><a href="#data" >ডেটা টাইপ ও ফরম্যাট স্পেসিফায়ার</a></li>
+<li><a href="#Variables" >ভ্যারিয়েবল ডিক্লারেশন</a></li>
+<li><a href="#in&out" >ইনপুট-আউটপুট স্টেটমেন্ট</a></li>
+<li><a href="#fprogramme" >প্রথম প্রোগ্রাম</a></li>
+<li><a href="#mprogramme" >আরো প্রোগ্রাম</a></li>
+<li><a href="#oper" >অপারেটর</a></li>
+<li><a href="#ifelse">If...else Statement</a></li>
+<li><a href="#ifelse"></a></li>
+<li><a href="#ifelse"></a></li>
+</ul>
+</nav>
+</div>
+<div id="main-div" >
+<section class="main-section" id="C programme" > 
+<h2>সি প্রোগ্রামিং</h2>
+<p>সি একটি উচ্চ স্তরের প্রোগ্রামিং ভাষা। এটি একটি জনপ্রিয় এবং ব্যবহারকারী বন্ধুত্বপূর্ণ ভাষা। 1972 সালে, ডেনিস রিচি বেল ল্যাবে এই ভাষাটি আবিষ্কার করেছিলেন। বলা হয় যে, যদি আপনি এই ভাষাটি জানেন তবে  অন্য কম্পিউটার ভাষা শিখতে খুব সহজ হয়ে যায়। এটি একটি চমৎকার কাঠামোগত প্রোগ্রামিং ভাষা, আপনি একটি জটিল প্রোগ্রাম তৈরি করার জন্য অনেক ছোট ছোট কাজ কে সমন্বয় করতে পারেন।</p> 
+</section>
+<hr>
+<section class="main-section" id="alg & flow" > 
+<h2>অ্যালগরিদম ও ফ্লো চার্ট </h2>
+<p>সর্বপ্রথম, একটি সমস্যা সমাধানের জন্য আপনাকে এটি সম্পর্কে চিন্তা করতে হবে এবং সমস্যাটিকে ক্র্যাক করার জন্য প্রতিটি অংশকে বুঝতে হবে।ধাপে ধাপে সমাধান করা খুবই সহায়ক একটি উপায়। একে <b>অ্যালগরিদম</b> বলে। কখনও কখনও এটি সমাধানের জন্য প্রতিটি পদক্ষেপ আঁকলে সত্যিই এটি সহজ হয়ে যায়।একে বলে <b>ফ্লো-চার্ট</b>। প্রোগ্রামিং শুরু করার আগে প্রতিটি প্রোগ্রামার অ্যালগরিদম এবং ফ্লোচার্ট তৈরি করার চেষ্টা করেন।</p>
+</section>
+<hr>
+<section class="main-section" id="data" > 
+<h2>ডেটা টাইপ ও ফরম্যাট স্পেসিফায়ার</h2>
+<p>কম্পিউটার সব সময়ই কোন কিছু হিসাবের জন্য বিভিন্ন ধরণের ডেটা নিয়ে কাজ করে। সি প্রোগ্রামেও কিছু নির্দিষ্ট ধরণের ডেটা আছে । এদের ডেটা টাইপ বলে। যেমন <i>char, int, float</i> ইত্যাদি।
+<h3>char</h3>
+<p>এটা <b>character</b> শব্দটির ১ম চারটি অক্ষর।এ ধরণেরডেটা টাইপ শুধু একটিই অক্ষর।('a', 'D', '!', '5') ধারণ করতে পারে।এরা কম্পিউটার মেমোরিতে ১বাইট জায়গা নেয়। </p>
+<h3>int</h3>
+<p> <b>integer</b> শব্দটির ১ম ৩ অক্ষর নিয়ে<b>int</b >গঠিত। এই ধরণের ডেটা কম্পিউটার মেমোরিতে ৪ বাইট জায়গা ধারণ করে। তার মানে এরা 2<sup>32</sup> বা 4294967296 গুলো ইন্টেজার ভ্যালু রাখতে পারবে।</p>
+<h3>float</h3>
+<p>এই ধরণের ডেটা দশমিক সংখ্যা ধারণের জন্য। এরাও ৪ বাইট জায়গা ধারণ করে। </p>
+<h3>Format Specifier</h3>
+<p>বিভিন্ন ধরণের ইনপুট নেয়া বা আউটপুট দেখানোর জন্য প্রোগ্রামকে ডেটা টাইপ নির্দিষ্ট করে দিতে হয়।  একে <b>format specifier</b> বলে। <br>নিচে কিছু ডেটা টাইপ ও ফরম্যাট স্পেসিফায়ার দেখানো হলো।</p>
+<table border="2px" style="border-collapse:collapse;width:98%;" class="dtable" >
+<tr><th>Data Types</th><th>Format Specifier</th></tr>
+<tr><td>char</td><td>%c</td></tr>
+<tr><td>int</td><td>%d</td></tr>
+<tr><td>float</td><td>%f</td></tr>
+</table>
+</p>
+</section>
+<hr>
+<section class="main-section" id="Variables" >
+<h2>ভ্যারিয়েবল ডিক্লারেশন</h2>
+<p> প্রোগ্রামিং জগতেও চলক একই যা আপনি গণিতে শিখেছেন। এদের কোন পার্থক্য নেই। আপনি সহজেই আপনার মত কতে যেকোন নাম দিলেই হবে। তবে অবশ্যই শুরুতে আপনাকে ডেটা টাইপ উল্লেখ করতে হবে। আরেকেটা ব্যাপার সেটা হলো  সি তে কিছু নির্দিষ্ট শব্দ আছে যাদের আপনি চাইলেও  ব্যাবহার করতে পারবেন না । এদের <b>Keyword</b> বলে। তাই ভ্যারিয়েবল এর নাম দিতে চাইলে আপনাকে কিছু নিয়ম অনুসরণ করতে হবে।
+ </p>
+ <code><pre>
+int decimal_number;
+decimal_number=10;
+float floating_number1;
+floating_number1=2.096;
+ </pre></code>
+</section>
+<hr>
+<section class="main-section" id="in&out" >
+<h2>ইনপুট- আউটপুট স্টেটমেন্ট </h2>
+<p> একজন প্রোগ্রামার হিসেবে সবসময় আপনাকে ইনপুট ও আউটপুট নিয়ে কাজ করতে হবে। এবার আমরা সেটাই শিখব। </p>
+<p>কোন কিছু আউটপুট হিসেবে দেখাতে চাইলে আপনাকে <strong>printf()</strong> ফাংশন ব্যাবহার করতে হবে। এটা একটি ফাংশনযা আপনার হেডার ফাইলে নির্দিষ্ট করা আছে। এই ফাংশনে আপনি ডাবল কোটেশনের(" ") মধ্যে যাই লিখবেন প্রোগ্রাম আপনাকে তাই দেখাবে।</p>
+<code><pre>
+printf("Hello world!")
+</pre></code>
+<p> প্রোগ্রামটির আউটপুট এমন দেখাবে।</p>
+<code><pre>
+Hello world!
+</pre></code>
+<p> একই ভাবে আপনাকে আউটপুট নিতে চাইলে  <strong>scanf()</strong> ফাংশন ব্যাবহার করতে হবে। এটাও একইভাবে printf() ফাংশনের মত করে ডাবল কোটেশনের ভিতরে যে ধরণের ইনপুট নিতে চান তার ফরম্যাট স্পেসিফায়ার ব্যাবহার করতে হবে। এবং ডাবল কোটেশনের বাইরে সেই ভ্যারিয়েবলএর নাম কমা দিয়ে  উল্লেখ করতে হবে। </p>
+<code><pre>
+ int number_1=3;
+ int number_2=5;
+ scanf("%d\n%d",number_1,
+ number_2);
+</pre></code>
+<p> কোডটি নিচের মত আউটপুট দেখাবে।</p>
+<code><pre>
+_
+</pre></code><br>
+<p> তারমানে আপনার প্রোগ্রাম আউটপুট নেয়ার জন্য প্রস্তুত।</p>
+<hr>
+</section>
+<section class="main-section" id="fprogramme" >
+<h2>প্রথম প্রোগ্রাম</h2>
+<p> চলুন প্রোগ্রামিং শুরু করা যাক! এবার আমরা সি প্রোগ্রামের গঠনের সাথে পরিচিত হব এবং সেটা রান করে দেখব।</p>
+<code><pre>
+#include stdio.h<sup><span id="note">(*wrap with this <>)</span></sup>
+int main(){
+
+printf("This is my first 
+programme.");
+
+return 0;
+}
+</pre></code>
+<br>
+<p>এটা হলো আউটপুট।</p>
+<br>
+<code><pre>
+<p>This is my first programme.</p>
+</pre></code><br>
+<p> কোডটিতে আমরা অনেকগুলো অজানা বিষয় দেখলাম এবার আমরা একটা একটা করে সেগুলো শিখব।</p>
+<p> দ্বিতীয় লাইনে আছে <b>main()</b> এটি হল মেইন ফাংশন। সি প্রোগ্রাম চলা শুরু হয় এই ফাংশন দিয়ে। দ্বিতীয় বন্ধনী বোঝাচ্ছে যে  ফাংশনটি ২য় লাইনে শুরু হবে এবং ৮ম লাইনে শেষ হবে।</p>
+<p>এরপর <b>printf()</b> ও একটা ফাংশন যেটা আপনি একটু আগে শিখলেন। কিন্তু কিভাবে এই ফাংশন কাজ কিরে সেটা কোথাও বকা নেই। এই <b>stdio.h</b>এমনই একটা হেডার ফাইল যেখানে বলা আছে এই ফাংশন গুলো প্রোগ্রামে কিভাবে কাজ করবে।</p>
+<p>প্রথম লাইনে #include stdio.h<sup><span id="note">(*wrap with this <>)</span></sup> বোঝাচ্ছে যে আপনি ওই হেডার ফাইলটি আপনার প্রোগ্রামে ব্যাবহার করতে পারবেন। </p>
+</p>
+</section>
+<hr>
+<section class="main-section" id="mprogramme" >
+<h2>আরো কিছু প্রোগ্রাম</h2>
+<p> এখন একজন প্রোগ্রামার হিসেবে আপনি অনেক কিছু চাইলেই করতে পারবে। তাই এখন আমরা সি ব্যাবহার করে একটি যোগের ক্যাল্কুলেটর বানাব।</p>
+<p> শুরুতেই অ্যালগরিদম নিয়ে ভাবা যাক। আপনি প্রথনে ইউজার থেকে ২টা ইনপুট নিবেন।  এবার প্রোগ্রাম তাদের যোগ করবে। এবং সব শেষে আসল ফলাফল আউটপুট আকারে দেখাবে।</p>
+<code><pre>
+#include stdio.h<sup><span id="note">(*wrap with this <>)</span></sup>
+int main(){
+
+int number_1,number_2;
+int sum;
+printf("Enter the first
+number.");
+scanf("%d",number_1);
+printf("Enter the second
+number.");
+scanf("%d",number_2);
+
+sum=number_1+number_2;
+printf("Your result is %d",
+sum);
+
+return 0;
+}
+</pre></code>
+</section>
+<hr>
+<section class="main-section" id="oper" >
+<h2>অপারেটর</h2>
+<p> অনেক ধরণের অপারেটরের সাথে আমরা আগে থেকেই পরিচিত। চলুন নিচের টেবিলে কিছু অপারেটরের সাথে পরিচিত হওয়া যাক। এটা পরবর্তি বিষয়ের জন্য জানা খুবই জরুরী।</p>
+<table border="2px" style="border-collapse:collapse;width:98%;" class="dtable">
+<tr><th>Arithmetic Operator</th><th>Relational Operators</th><th>Logical Operator</th></tr>
+<tr><td>+</td><td>==</td><td>&&(and)</td></tr>
+<tr><td>-</td><td>!=</td><td>||(or)</td></tr>
+<tr><td>*</td><td>></td><td>!(not)</td></tr>
+<tr><td>/</td><td>>=</td><td></td></tr>
+<tr><td></td><td><</td><td></td></tr>
+<tr><td></td><td><=</td><td></td></tr>
+</table>
+</section>
+<hr>
+<section class="main-section" id="ifelse" >
+<h2>If...else Statement</h2>
+<p>এবার আমরা কন্ডিশনাল স্টেটমেন্ট নিয়ে আলোচনা করব। এক্ষেত্রে আমরা প্রোগ্রামকে কিছু শর্ত দেব এবং প্রোগ্রামও সেই অনুযায়ী কাজ করবে। সেজন্য আমরা <b>If...else</b> স্টেটমেন্ট ব্যাবহার করব। </p>
+<p>এক্ষেত্রে নির্দিষ্ট সিনট্যাক্সটটি হল- </p>
+<code><pre>
+If(conditional expression)
+{
+...Statement 1...
+}
+else{
+...Statement 2...
+}
+</pre></code>
+<p>এখানে <b>Statement 1</b> কাজ করবে যদি শর্ত কাজ সত্য হয় নাহলে <b>Statement 2</b>কাজ করবে। </p>
+<h3>চলুন একটা অনুশীলন করা যাক। </h3>
+<code><pre>
+#include stdio.h<sup><span id="note">(*wrap with this <>)</span></sup>
+int main(){
+
+int number_1,number_2;
+
+printf("Enter the two
+numbers.");
+scanf("%d\n%d",number_1
+,number_2)
+if(number_1==number_2){
+printf("Both numbers are
+equal.");
+}
+else{
+printf("Both numbers are not
+equal.");
+}
+
+return 0;
+}
+</pre></code>
+<p>উপরের কোডটি ২টি সংখ্যা নিবে এবং সেটা শর্ত অনুযায়ী মেলানোর চেষ্টা করবে। যদু শর্ত সত্য হয় তাহলে প্রোগ্রাম ১ম স্টেটমেন্টকে আউটপুট হিসেবে দেখাবে নইলে এটা ২য় স্টেটমেন্টকে আউটপুট হিসেবে দেখাবে। </p>
+ <p>এছাড়া <b>else if </b> স্টেটমেন্টও ব্যাবহার করা যাবে যদি একাধিক শর্ত পরীক্ষা করতে হয়।</p>
+</section>
+</div>-->
+</main>
+</body>
+</html>
